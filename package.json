@@ -1,6 +1,5 @@
 {
   "name": "wtf-lll-wallet",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "main": "dist/wtf-lll-wallet.umd.js",
