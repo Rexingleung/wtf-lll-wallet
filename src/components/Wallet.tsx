@@ -14,7 +14,7 @@ declare global {
 	}
 }
 
-const WalletComponent: React.FC = () => {
+export const WalletComponent: React.FC = () => {
 	// 使用 zustand store
 	const {
 		address,
@@ -428,5 +428,3 @@ const WalletComponent: React.FC = () => {
 		</div>
 	);
 };
-
-export default WalletComponent;

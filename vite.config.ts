@@ -4,7 +4,11 @@ import dts from "vite-plugin-dts";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), dts()],
+  plugins: [react(), 
+    dts({
+      insertTypesEntry: true, // 会自动生成 index.d.ts 并在 package.json 添加 "types"
+    }),
+  ],
   build: {
     lib: {
       entry: "src/index.ts",

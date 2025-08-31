@@ -1,6 +1,6 @@
-import Wallet from "./Wallet";
+import {WalletComponent} from "./Wallet";
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
   return (
     <header className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,11 +11,9 @@ const Header: React.FC = () => {
           </div>
 
           {/* 钱包组件 */}
-          <Wallet />
+          <WalletComponent />
         </div>
       </div>
     </header>
   );
 };
-
-export default Header;
