@@ -1,10 +1,10 @@
 {
   "name": "wtf-lll-wallet",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "dist/wtf-lll-wallet.umd.js",
   "module": "dist/wtf-lll-wallet.es.js",
-  "types": "dist/wtf-lll-wallet.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
